@@ -1,6 +1,31 @@
 ---
 layout: post
-title: "Example content"
+title: Example content
+# permalink: /page-file-name.html
+# lang: ru
+# description: page description
+# excerpt: page excerpt
+# tagline: page tagline
+# keywords: page, keywords, separated, by, comma, plus, blank
+# category: page category
+# categories:
+#   - list
+#   - of
+#   - the
+#   - page
+#   - categories
+# tags:
+#   - list
+#   - of
+#   - the
+#   - page
+#   - tags
+# image: /page-og-image.png
+# author:
+#   name: page author name
+# twitter:
+#   site: twitter site creator id
+#   username: twitter user creator id
 ---
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.

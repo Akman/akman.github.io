@@ -1,6 +1,31 @@
 ---
 layout: post
-title: "Welcome to Jekyll"
+title: Welcome to Jekyll
+# permalink: /page-file-name.html
+# lang: ru
+# description: page description
+# excerpt: page excerpt
+# tagline: page tagline
+# keywords: page, keywords, separated, by, comma, plus, blank
+# category: page category
+# categories:
+#   - list
+#   - of
+#   - the
+#   - page
+#   - categories
+# tags:
+#   - list
+#   - of
+#   - the
+#   - page
+#   - tags
+# image: /page-og-image.png
+# author:
+#   name: page author name
+# twitter:
+#   site: twitter site creator id
+#   username: twitter user creator id
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 

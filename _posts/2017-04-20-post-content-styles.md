@@ -1,11 +1,31 @@
 ---
 layout: post
-title: "Post content styles"
-tagline: "This post demonstrates post content styles"
-categories: junk
+title: Post content styles
+tagline: This post demonstrates post content styles
 image: /thumbnail-mobile.png
-author: "Bart Simpson"
-meta: "Springfield"
+author:
+  name: Bart Simpson
+# permalink: /page-file-name.html
+# lang: ru
+# description: page description
+# excerpt: page excerpt
+# keywords: page, keywords, separated, by, comma, plus, blank
+# category: page category
+# categories:
+#   - list
+#   - of
+#   - the
+#   - page
+#   - categories
+# tags:
+#   - list
+#   - of
+#   - the
+#   - page
+#   - tags
+# twitter:
+#   site: twitter site creator id
+#   username: twitter user creator id
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit.

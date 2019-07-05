@@ -34,7 +34,7 @@ exclude:
   - README.md
 
 # Language
-lang: en-US
+lang: en
 
 # Title
 title: Akman Blog
@@ -45,26 +45,17 @@ description: >-
   Cayman Blog Theme is a clean, responsive blogging theme for Jekyll
   and Gitlab/GitHub Pages
 
-# open graph default site image
+# OG default site image
 image: /thumbnail-jumbo.png
 
-# Google Analytics tracking ID
-google_analytics:
+# Author name
+author:
+  name: Alexander Kapitman
 
-show_downloads: true
-
-# See vars in default.html
-github:
-  # owner_name
-  # owner_url
-  # repository_name
-  # repository_url
-  # is_project_page
-  # project_tagline 
-  zip_url: https://github.com/Akman/java-boilerplate-gradle/archive/v0.18.0.zip
-  tar_url: https://github.com/Akman/java-boilerplate-gradle/archive/v0.18.0.tar.gz
-
-repository: Akman/java-boilerplate-gradle
+# Twitter creator
+twitter:
+  site: Kapitman
+  username: Kapitman
 
 # change this to the base hostname & protocol for your site
 # url: https://akman.github.io
@@ -72,15 +63,31 @@ repository: Akman/java-boilerplate-gradle
 # change this to the subpath of your site, e.g. /blog. Leave it empty if you don't need it.
 # baseurl: /
 
-cayman-blog:
-  # http://shopify.github.io/liquid/filters/date/
+# header pages
+header_pages:
+  - blog.md
+  - about.md
+  - contact.md
+
+blog:
+  # https://shopify.github.io/liquid/filters/date/
   date_format: '%d.%m.%Y'
 
-# social
-author: Alexander Kapitman
+# Google Analytics tracking ID
+google_analytics:
 
-twitter:
-  username: Kapitman
+show_downloads: true
 
+github:
+  # owner_name
+  # owner_url
+  # repository_name
+  # repository_url
+  # is_project_page
+  # project_tagline
+  zip_url: https://github.com/Akman/java-boilerplate-gradle/archive/v0.18.0.zip
+  tar_url: https://github.com/Akman/java-boilerplate-gradle/archive/v0.18.0.tar.gz
+
+# jekyll-target-blank
 target-blank:
     rel: nofollow
