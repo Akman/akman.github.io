@@ -37,13 +37,16 @@ exclude:
 lang: en-US
 
 # Title
-title: Cayman Blog Theme
+title: Akman Blog
 
 # Description
 # It will appear in your document head meta and in your feed.xml
 description: >-
   Cayman Blog Theme is a clean, responsive blogging theme for Jekyll
   and Gitlab/GitHub Pages
+
+# open graph default site image
+image: /thumbnail-jumbo.png
 
 # Google Analytics tracking ID
 google_analytics:
@@ -61,23 +64,23 @@ github:
   zip_url: https://github.com/Akman/java-boilerplate-gradle/archive/v0.18.0.zip
   tar_url: https://github.com/Akman/java-boilerplate-gradle/archive/v0.18.0.tar.gz
 
+repository: Akman/java-boilerplate-gradle
+
 # change this to the base hostname & protocol for your site
-url: "https://lorepirri.github.io"
+# url: https://akman.github.io
 
 # change this to the subpath of your site, e.g. /blog. Leave it empty if you don't need it.
-baseurl: "/cayman-blog"
+# baseurl: /
 
-# cayman-blog date format
-# refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
 cayman-blog:
-  date_format: "%b %-d, %Y"
+  # http://shopify.github.io/liquid/filters/date/
+  date_format: '%d.%m.%Y'
 
 # social
-author: "Lore Pirri"
-image: /thumbnail-jumbo.png
+author: Alexander Kapitman
 
 twitter:
-  username: lorepirri
+  username: Kapitman
 
 target-blank:
     rel: nofollow
