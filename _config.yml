@@ -1,0 +1,83 @@
+#
+# The MIT License (MIT)
+#
+# Copyright (C) 2019 Alexander Kapitman <akman.ru@gmail.com>
+#
+# Permission is hereby granted, free of charge, to any person obtaining a copy of
+# this software and associated documentation files (the "Software"), to deal in
+# the Software without restriction, including without limitation the rights to
+# use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of
+# the Software, and to permit persons to whom the Software is furnished to do so,
+# subject to the following conditions:
+#
+# The above copyright notice and this permission notice shall be included in all
+# copies or substantial portions of the Software.
+#
+# THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+# IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
+# FOR A PARTICULAR PURPOSE AND NONINFINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
+# COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
+# IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+# CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+#
+
+#theme: jekyll-theme-cayman-blog
+
+markdown: kramdown
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-target-blank
+
+exclude:
+  - README.md
+
+# Language
+lang: en-US
+
+# Title
+title: Cayman Blog Theme
+
+# Description
+# It will appear in your document head meta and in your feed.xml
+description: >-
+  Cayman Blog Theme is a clean, responsive blogging theme for Jekyll
+  and Gitlab/GitHub Pages
+
+# Google Analytics tracking ID
+google_analytics:
+
+show_downloads: true
+
+# See vars in default.html
+github:
+  # owner_name
+  # owner_url
+  # repository_name
+  # repository_url
+  # is_project_page
+  # project_tagline 
+  zip_url: https://github.com/Akman/java-boilerplate-gradle/archive/v0.18.0.zip
+  tar_url: https://github.com/Akman/java-boilerplate-gradle/archive/v0.18.0.tar.gz
+
+# change this to the base hostname & protocol for your site
+url: "https://lorepirri.github.io"
+
+# change this to the subpath of your site, e.g. /blog. Leave it empty if you don't need it.
+baseurl: "/cayman-blog"
+
+# cayman-blog date format
+# refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
+cayman-blog:
+  date_format: "%b %-d, %Y"
+
+# social
+author: "Lore Pirri"
+image: /thumbnail-jumbo.png
+
+twitter:
+  username: lorepirri
+
+target-blank:
+    rel: nofollow
