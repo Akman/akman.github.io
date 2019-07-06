@@ -6,7 +6,7 @@
 
     {% if page_paths %}
       {% if page.layout != 'home' %}
-        <a class="site-title" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
+        <a class="site-title" href="{{ "/" | relative_url }}">{{ site.header_home.title | default: site.title | escape }}</a>
       {% endif %}
       <nav class="site-nav">
         <input type="checkbox" id="nav-trigger" class="nav-trigger" />

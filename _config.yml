@@ -69,6 +69,10 @@ header_pages:
   - name: about.md
   - name: contact.md
 
+# header home
+header_home:
+  title: Akman
+
 blog:
   # https://shopify.github.io/liquid/filters/date/
   date_format: '%d.%m.%Y'
