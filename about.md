@@ -35,6 +35,4 @@ You can find the source code for _Jekyll_ at [jekyll](https://github.com/jekyll/
 
 ![Thumbnail)][image_thumbnail]
 
-[Go to the Home Page]({{ site.url }}{{ site.baseurl }})
-
 [image_thumbnail]: thumbnail-jumbo.png
