@@ -89,8 +89,8 @@ github:
   # repository_url
   # is_project_page
   # project_tagline
-  zip_url: https://github.com/Akman/java-boilerplate-gradle/archive/v0.18.0.zip
-  tar_url: https://github.com/Akman/java-boilerplate-gradle/archive/v0.18.0.tar.gz
+  # zip_url: https://github.com/Akman/java-boilerplate-gradle/archive/v0.18.0.zip
+  # tar_url: https://github.com/Akman/java-boilerplate-gradle/archive/v0.18.0.tar.gz
 
 # jekyll-target-blank
 target-blank:
