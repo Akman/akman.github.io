@@ -33,6 +33,6 @@ This is the _Cayman Blog_ Jekyll theme. You can find out more info about customi
 
 You can find the source code for _Jekyll_ at [jekyll](https://github.com/jekyll/jekyll)
 
-![Thumbnail)][image_thumbnail]
+![Thumbnail][image_thumbnail]
 
 [image_thumbnail]: thumbnail-jumbo.png

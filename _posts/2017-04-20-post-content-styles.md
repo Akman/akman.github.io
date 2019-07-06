@@ -2,7 +2,7 @@
 layout: post
 title: Post content styles
 tagline: This post demonstrates post content styles
-image: {{ site.url }}/thumbnail-mobile.png
+image: /thumbnail-mobile.png
 author:
   name: Bart Simpson
 # permalink: page-file-name.html
@@ -30,7 +30,7 @@ author:
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit.
 
-![Thumbnail (mobile)]({{ site.url }}/thumbnail-mobile.png)
+![Thumbnail (mobile)](/thumbnail-mobile.png)
 
 ## Some great heading (h2)
 

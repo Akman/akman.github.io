@@ -30,7 +30,7 @@ title: Example content
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
-[Link to root about page]({{ site.url }}/about.html).
+[Link to root about page](/about.html).
 
 There should be whitespace between paragraphs.
 
