@@ -46,7 +46,7 @@ description: >-
   and Gitlab/GitHub Pages
 
 # OG default site image
-image: /thumbnail-jumbo.png
+image: thumbnail-jumbo.png
 
 # Author name
 author:
@@ -65,9 +65,9 @@ baseurl: /
 
 # header pages
 header_pages:
-  - blog.md
-  - about.md
-  - contact.md
+  - name: blog.md
+  - name: about.md
+  - name: contact.md
 
 blog:
   # https://shopify.github.io/liquid/filters/date/
