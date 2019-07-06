@@ -20,7 +20,7 @@ tagline: Create a contact form and you are good to go
 #   - the
 #   - page
 #   - tags
-# image: page-og-image.png
+# image: /page-og-image.png
 # author:
 #   name: page author name
 # twitter:

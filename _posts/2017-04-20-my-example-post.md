@@ -20,7 +20,7 @@ layout: post
 #   - the
 #   - page
 #   - tags
-# image: page-og-image.png
+# image: /page-og-image.png
 # author:
 #   name: page author name
 # twitter:

@@ -3,7 +3,7 @@ layout: page
 title: About
 tagline: A few more words about me
 permalink: about.html
-image: thumbnail-jumbo.png
+image: /thumbnail-jumbo.png
 # permalink: page-file-name.html
 # lang: ru
 # description: page description
@@ -33,6 +33,6 @@ This is the _Cayman Blog_ Jekyll theme. You can find out more info about customi
 
 You can find the source code for _Jekyll_ at [jekyll](https://github.com/jekyll/jekyll)
 
-![Thumbnail][image_thumbnail]
+![Thumbnail (jumbo)][image_thumbnail]
 
-[image_thumbnail]: thumbnail-jumbo.png
+[image_thumbnail]: /thumbnail-jumbo.png
