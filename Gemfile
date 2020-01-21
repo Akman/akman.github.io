@@ -40,6 +40,9 @@ gem 'github-pages', '>= 203', group: :jekyll_plugins
 # https://rubygems.org/gems/tzinfo-data
 gem 'tzinfo-data', '>= 1.2019.3', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
+# https://rubygems.org/gems/tzinfo
+gem 'tzinfo', '~> 1.1'
+
 # https://rubygems.org/gems/wdm
 gem 'wdm', '~> 0.1.1' if Gem.win_platform?
 
@@ -48,6 +51,9 @@ gem 'nokogiri', '>= 1.10.4'
 
 # https://rubygems.org/gems/faraday
 gem 'faraday', '~> 0.17.3'
+
+# https://rubygems.org/gems/activesupport
+gem "activesupport", ">= 4.1.11"
 
 group :jekyll_plugins do
 
