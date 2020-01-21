@@ -29,29 +29,35 @@ ruby '~> 2.5.5'
 gem 'jekyll', '>= 3.8.5'
 
 # https://rubygems.org/gems/minima
-gem 'minima', '>= 2.5.0'
+gem 'minima', '>= 2.5.1'
 
 # https://rubygems.org/gems/jekyll-theme-cayman
 gem 'jekyll-theme-cayman', '>= 0.1.1'
 
 # https://rubygems.org/gems/github-pages/
-gem 'github-pages', '>= 198', group: :jekyll_plugins
+gem 'github-pages', '>= 203', group: :jekyll_plugins
 
 # https://rubygems.org/gems/tzinfo-data
-gem 'tzinfo-data', '>= 1.2019.2', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+gem 'tzinfo-data', '>= 1.2019.3', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # https://rubygems.org/gems/wdm
 gem 'wdm', '~> 0.1.1' if Gem.win_platform?
 
+# https://rubygems.org/gems/nokogiri
+gem 'nokogiri', '>= 1.10.4'
+
+# https://rubygems.org/gems/faraday
+gem 'faraday', '~> 0.17.3'
+
 group :jekyll_plugins do
 
     # https://rubygems.org/gems/jekyll-feed
-    gem 'jekyll-feed', '>= 0.11.0'
+    gem 'jekyll-feed', '>= 0.13.0'
 
     # https://rubygems.org/gems/jekyll-seo-tag
-    gem 'jekyll-seo-tag', '>= 2.5.0'
+    gem 'jekyll-seo-tag', '>= 2.6.1'
 
     # https://rubygems.org/gems/jekyll-target-blank
-    gem 'jekyll-target-blank', '>= 1.1.1'
+    gem 'jekyll-target-blank', '>= 2.0.0'
 
 end
