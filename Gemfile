@@ -23,7 +23,7 @@
 
 source 'https://rubygems.org'
 
-ruby '~> 2.5.5'
+ruby '~> 2.6.5'
 
 # https://rubygems.org/gems/jekyll
 gem 'jekyll', '>= 3.8.5'
@@ -47,7 +47,7 @@ gem 'tzinfo', '~> 1.1'
 gem 'wdm', '~> 0.1.1' if Gem.win_platform?
 
 # https://rubygems.org/gems/nokogiri
-gem 'nokogiri', '>= 1.10.4'
+gem 'nokogiri', '>= 1.10.8'
 
 # https://rubygems.org/gems/faraday
 gem 'faraday', '~> 0.17.3'
