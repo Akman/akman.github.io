@@ -15,7 +15,6 @@ $ bundle install
 $ bundle update
 ```
 
-
 ## Serve
 
 ```bash

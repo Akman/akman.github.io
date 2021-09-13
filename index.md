@@ -44,3 +44,18 @@ You find this descriptive text in the `index.md` file, so you can change it, or 
   
   This project aims to cover best practices for JavaFX application development as a whole.
   It provides tool recommendations for linting, testing and packaging.
+
+- [jlink maven plugin](/jlink-maven-plugin/)
+
+  The jlink maven plugin lets you create a custom runtime image with the jlink
+  tool introduced in Java 9. The main idea is to avoid being tied to project
+  artifacts and allow the user to fully control the process of creating
+  an image. However, it is possible, of course, to customize the process
+  using project artifacts.
+
+- [jpackage maven plugin](/jpackage-maven-plugin/)
+
+  The jpackage maven plugin lets you create a custom runtime image/installer
+  with the jpackage tool introduced in Java 14. The main idea is to avoid being
+  tied to project artifacts and allow the user to fully control the process of
+  creating an image/installer.
