@@ -40,4 +40,7 @@ You find this descriptive text in the `index.md` file, so you can change it, or 
 
 ## Projects
 
-- [Java Boilerplate with Gradle](/java-boilerplate-gradle/)
+- [JavaFX application boilerplate project using gradle and maven build tools](/javafx-boilerplate/)
+  
+  This project aims to cover best practices for JavaFX application development as a whole.
+  It provides tool recommendations for linting, testing and packaging.
