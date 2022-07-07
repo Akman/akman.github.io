@@ -5,12 +5,12 @@ All tasks are performed from the site directory itself where placed
 
 ## Requirements
 
-Ruby ~> v2.5.5
+Ruby >= v3.0.3
 
 ## Setup
 
 ```bash
-$ gem install bundler
+$ gem install bundler jekyll
 $ bundle install
 $ bundle update
 ```

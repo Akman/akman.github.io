@@ -1,7 +1,7 @@
 #
 # The MIT License (MIT)
 #
-# Copyright (C) 2019 - 2021 Alexander Kapitman <akman.ru@gmail.com>
+# Copyright (C) 2019 - 2022 Alexander Kapitman <akman.ru@gmail.com>
 #
 # Permission is hereby granted, free of charge, to any person obtaining a copy of
 # this software and associated documentation files (the "Software"), to deal in
@@ -23,10 +23,13 @@
 
 source 'https://rubygems.org'
 
-ruby '~> 2.7.1'
+ruby '>= 3.0.3'
 
 # https://rubygems.org/gems/jekyll
-gem 'jekyll', '>= 3.9.0'
+gem 'jekyll', '>= 3.9.2'
+
+# https://rubygems.org/gems/webrick
+gem "webrick", ">= 1.7.0"
 
 # https://rubygems.org/gems/minima
 gem 'minima', '>= 2.5.1'
@@ -35,25 +38,28 @@ gem 'minima', '>= 2.5.1'
 gem 'jekyll-theme-cayman', '>= 0.2.0'
 
 # https://rubygems.org/gems/github-pages/
-gem 'github-pages', '>= 219', group: :jekyll_plugins
+gem 'github-pages', '>= 226', group: :jekyll_plugins
 
 # https://rubygems.org/gems/tzinfo-data
-gem 'tzinfo-data', '>= 1.2021.1', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+gem 'tzinfo-data', '>= 1.2022.1', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # https://rubygems.org/gems/tzinfo
-gem 'tzinfo', '~> 1.2.9'
+gem 'tzinfo', '>= 1.2.9'
 
 # https://rubygems.org/gems/wdm
-gem 'wdm', '~> 0.1.1' if Gem.win_platform?
+gem 'wdm', '>= 0.1.1' if Gem.win_platform?
 
 # https://rubygems.org/gems/nokogiri
-gem 'nokogiri', '>= 1.12.4'
+gem 'nokogiri', '>= 1.13.6'
 
 # https://rubygems.org/gems/faraday
-gem 'faraday', '~> 0.17.4'
+gem 'faraday', '>= 2.3.0'
+
+# https://rubygems.org/gems/faraday-retry
+gem 'faraday-retry', '>= 2.0.0'
 
 # https://rubygems.org/gems/activesupport
-gem "activesupport", ">= 6.0.4.1"
+gem "activesupport", ">= 6.0.5"
 
 group :jekyll_plugins do
 
@@ -61,7 +67,7 @@ group :jekyll_plugins do
     gem 'jekyll-feed', '>= 0.15.1'
 
     # https://rubygems.org/gems/jekyll-seo-tag
-    gem 'jekyll-seo-tag', '>= 2.7.1'
+    gem 'jekyll-seo-tag', '>= 2.8.0'
 
     # https://rubygems.org/gems/jekyll-target-blank
     gem 'jekyll-target-blank', '>= 2.0.0'
