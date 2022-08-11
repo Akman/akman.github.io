@@ -5,7 +5,7 @@ All tasks are performed from the site directory itself where placed
 
 ## Requirements
 
-Ruby >= v3.0.3
+Ruby >= v2.7.0
 
 ## Setup
 

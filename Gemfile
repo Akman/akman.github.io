@@ -23,7 +23,7 @@
 
 source 'https://rubygems.org'
 
-ruby '>= 3.0.3'
+ruby '>= 2.7.0'
 
 # https://rubygems.org/gems/jekyll
 gem 'jekyll', '>= 3.9.2'
@@ -38,28 +38,28 @@ gem 'minima', '>= 2.5.1'
 gem 'jekyll-theme-cayman', '>= 0.2.0'
 
 # https://rubygems.org/gems/github-pages/
-gem 'github-pages', '>= 226', group: :jekyll_plugins
+gem 'github-pages', '>= 227', group: :jekyll_plugins
 
 # https://rubygems.org/gems/tzinfo-data
 gem 'tzinfo-data', '>= 1.2022.1', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # https://rubygems.org/gems/tzinfo
-gem 'tzinfo', '>= 1.2.9'
+gem 'tzinfo', '>= 1.2.10'
 
 # https://rubygems.org/gems/wdm
 gem 'wdm', '>= 0.1.1' if Gem.win_platform?
 
 # https://rubygems.org/gems/nokogiri
-gem 'nokogiri', '>= 1.13.6'
+gem 'nokogiri', '>= 1.13.8'
 
 # https://rubygems.org/gems/faraday
-gem 'faraday', '>= 2.3.0'
+gem 'faraday', '>= 2.5.2'
 
 # https://rubygems.org/gems/faraday-retry
 gem 'faraday-retry', '>= 2.0.0'
 
 # https://rubygems.org/gems/activesupport
-gem "activesupport", ">= 6.0.5"
+gem "activesupport", ">= 6.0.5.1"
 
 group :jekyll_plugins do
 
